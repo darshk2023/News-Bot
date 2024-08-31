@@ -124,6 +124,8 @@ class Sharingan_Summarizer:
         return self.output_file
     
 '''
+EXAMPLE USAGE:
+
 sources = [
     "https://www.cnn.com/",
     "https://www.foxnews.com/",
@@ -135,14 +137,4 @@ css_selectors = [
     ".multistoryline__headline"
 ]
 tomoe_summarizer = Sharingan_Summarizer(sources, css_selectors)
-
-# Define the file path
-file_path = "summaries.txt"
-
-# Open and read the file
-with open(file_path, 'r') as file:
-    content = file.read()
-
-# Print the content
-print(content)
 '''
