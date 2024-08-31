@@ -132,8 +132,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # SLACK API Configurations
 # ----------------------------------------------
 # use your keys 
-SLACK_CLIENT_ID = '7247801511568.7225021960930'
-SLACK_CLIENT_SECRET = 'e49891f600de09d77f2007a47e4d6a10'
-SLACK_VERIFICATION_TOKEN = '7O8M9ADYN7thFb5FgOzPkGMq'
-SLACK_BOT_USER_TOKEN = 'xoxb-7247801511568-7218407077318-F5chJD7pvk4A9dsbGVyVnWft'
+SLACK_CLIENT_ID = 'HIDDEN'
+SLACK_CLIENT_SECRET = 'HIDDEN'
+SLACK_VERIFICATION_TOKEN = 'HIDDEN'
+SLACK_BOT_USER_TOKEN = 'HIDDEN'
+# The four fields above will be assigned based on the slack bot created in your workspace
 
